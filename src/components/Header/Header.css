@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: #ffffff; /* Fundo claro para contrastar com a logo */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Controla a altura da imagem e evita o estouro de tela */
+.header img {
+  height: 70px; /* Altura ideal para o header */
+  width: auto;  /* Mantém a proporção correta */
+  object-fit: contain;
+}
+
+/* Oculta o título em texto se você já estiver usando a imagem como logo */
+.header-title {
+  display: none; 
+}
